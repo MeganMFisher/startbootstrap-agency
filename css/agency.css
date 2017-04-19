@@ -555,9 +555,7 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
-  background-image: url('/img/pexels-photo.jpg');
-  /*background-position: center;*/
-  /*background-repeat: no-repeat;*/
+  /*background-image: url('/img/black.jpg');*/
   background-size: cover;
 }
 section#contact .section-heading {
