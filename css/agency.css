@@ -28,7 +28,8 @@ a.active {
   outline: none;
 }
 a {
-  color: #48839a;
+  /*color: #48839a;*/
+  color: #333;
 }
 a:hover,
 a:focus,
@@ -617,6 +618,7 @@ section#contact .text-danger {
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #222222;
 }
 footer span.copyright {
   line-height: 40px;
@@ -637,10 +639,10 @@ ul.social-buttons {
 
 ul.social-buttons li a {
   display: block;
-  background-color: #222222;
+  background-color: #333;
   height: 40px;
   width: 40px;
-  border-radius: 100%;
+  border-radius: 10%;
   font-size: 20px;
   line-height: 40px;
   color: white;
