@@ -560,8 +560,8 @@ aside.clients img {
 section#contact {
   background-color: #222222;
   /*background-image: url('/img/plant-2004483_1920.jpg');*/
-  /*background-image: url('/img/annie-spratt-42051.jpg');*/
-  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0,0, 0, 0.7)), url('/img/gardenly-105815.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0,0, 0, 0.7)), url('/img/annie-spratt-42051.jpg');
+  /*background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0,0, 0, 0.7)), url('/img/gardenly-105815.jpg');*/
   /*background-image: url('/img/succulent.png');*/
   background-size: cover;
 }
