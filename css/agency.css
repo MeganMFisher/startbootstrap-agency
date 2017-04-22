@@ -203,6 +203,18 @@ fieldset[disabled] .btn-xl.active {
   color: white;
   background-color: #48839a;
 }
+
+.navbar-Photo {
+  width: 40px;
+  height: 40px;
+  background: url('/img/photo.png');
+  background-size: cover;
+  border: 2px solid #48839a;
+  border-radius: 5px;
+  margin-right: -5px;
+  margin-top: 7px;
+  margin-left: 15px;
+}
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
@@ -235,7 +247,7 @@ header {
   /*background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0,0, 0, 0.5)), url('/img/succulent.png');*/
   /*background-image: url('/img/plant-2004483_1920.jpg');*/
   /*background-image: url('/img/gardenly-105815.jpg');*/
-  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0,0, 0, 0.7)), url('/img/annie-spratt-42051.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0,0, 0, 0.8)), url('/img/annie-spratt-42051.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -567,8 +579,8 @@ aside.clients img {
 section#contact {
   background-color: #222222;
   /*background-image: url('/img/plant-2004483_1920.jpg');*/
-  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0,0, 0, 0.7)), url('/img/annie-spratt-42051.jpg');
-  /*background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0,0, 0, 0.7)), url('/img/gardenly-105815.jpg');*/
+  /*background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0,0, 0, 0.7)), url('/img/annie-spratt-42051.jpg');*/
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0,0, 0, 0.7)), url('/img/gardenly-105815.jpg');
   /*background-image: url('/img/succulent.png');*/
   background-size: cover;
   background-attachment: fixed;
