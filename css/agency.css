@@ -3,6 +3,10 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+ 
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -153,7 +157,8 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   color: #48839a;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: "Dancing Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  letter-spacing: 2px;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -227,10 +232,10 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0,0, 0, 0.5)), url('/img/succulent.png');
+  /*background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0,0, 0, 0.5)), url('/img/succulent.png');*/
   /*background-image: url('/img/plant-2004483_1920.jpg');*/
   /*background-image: url('/img/gardenly-105815.jpg');*/
-  /*background-image: url('/img/annie-spratt-42051.jpg');*/
+  background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0,0, 0, 0.7)), url('/img/annie-spratt-42051.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -351,7 +356,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
-  background-color: white;
+  background-color: #b3b3b3;
   text-align: center;
   padding: 25px;
 }
@@ -754,4 +759,8 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #48839a;
+}
+
+#about {
+      background: #eeeeee;
 }
