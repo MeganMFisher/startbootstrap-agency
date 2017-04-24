@@ -10,6 +10,7 @@
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
 }
 .text-muted {
   color: #777777;
@@ -272,41 +273,47 @@ header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 40px;
   line-height: 22px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   font-weight: bold;
 }
 header .intro-text .intro-heading {
+  /*color: #555;*/
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 23px;
   line-height: 27px;
   margin-bottom: 25px;
+  
 }
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
   }
+
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 85px;
+    font-size: 90px;
     line-height: 40px;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
   }
   header .intro-text .intro-heading {
+    /*background: rgba(72, 131, 154, 0.2);*/
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 30px;
     line-height: 75px;
     margin-bottom: 50px;
+    letter-spacing: 3px;
   }
 }
 section {
@@ -338,9 +345,10 @@ section h3.section-subheading {
   background: linear-gradient(45deg, #ccc, #48839a);
   border-radius: 5px;
   width: 300px;
+  letter-spacing: 2px;
 }
 .service-heading:hover {
-  background: linear-gradient(45deg, #48839a, #ccc);
+  background: #48839a;
   /*background: #48839a;*/
 }
 #skills{
@@ -471,6 +479,7 @@ section h3.section-subheading {
   border-radius: 100%;
   border: 7px solid #f1f1f1;
   text-align: center;
+  
 }
 .timeline > li .timeline-image h4 {
   font-size: 10px;
