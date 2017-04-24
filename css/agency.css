@@ -256,7 +256,7 @@ header {
   /*background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0,0, 0, 0.5)), url('/img/succulent.png');*/
   /*background-image: url('/img/plant-2004483_1920.jpg');*/
   /*background-image: url('/img/gardenly-105815.jpg');*/
-  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0,0, 0, 0.8)), url('/img/annie-spratt-42051.jpg');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0,0, 0, 0.75)), url('/img/annie-spratt-42051.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -336,11 +336,12 @@ section h3.section-subheading {
   text-transform: none;
   padding: 20px 20px;
   background: linear-gradient(45deg, #ccc, #48839a);
-  border-radius: 20px;
-  width: 250px;
+  border-radius: 5px;
+  width: 300px;
 }
 .service-heading:hover {
-  background: #48839a;
+  background: linear-gradient(45deg, #48839a, #ccc);
+  /*background: #48839a;*/
 }
 #skills{
   display: flex; 
@@ -795,5 +796,5 @@ body {
 }
 
 #about {
-      background: #eeeeee;
+      background: #eee;
 }
