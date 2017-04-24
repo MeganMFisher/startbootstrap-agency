@@ -334,6 +334,17 @@ section h3.section-subheading {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
+  padding: 20px 20px;
+  background: #48839a;
+  border-radius: 20px;
+  width: 250px;
+}
+.service-heading:hover {
+  background: #999;
+}
+.col-md-4{
+  display: flex; 
+  justify-content: center;
 }
 #portfolio .portfolio-item {
   margin: 0 0 15px;
