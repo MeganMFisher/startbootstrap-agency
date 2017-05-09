@@ -703,7 +703,7 @@ ul.social-buttons li a {
 
 }
 
-.fa {
+ul.social-buttons li .fa {
   padding-left: 37%;
   font-size: 25px;
 }
