@@ -846,6 +846,23 @@ body {
   margin-top: 40px;
 }
 
+#picBox {
+    display: flex; 
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+#pic1 {
+    border-radius: 0px; 
+    box-shadow: 6px 6px 17px 2px rgba(0, 0, 0, .4); 
+    width: 210px; 
+    height: 280px;
+  }
+
+#pic {
+  display: none;
+}
 
 
 @media (min-width: 600px) {
@@ -870,6 +887,8 @@ body {
   #picBox {
     display: flex; 
     justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   #pic {
@@ -877,10 +896,15 @@ body {
     box-shadow: 6px 6px 17px 2px rgba(0, 0, 0, .4); 
     width: 360px; 
     height: 480px;
+    display: block;
   }
 
   #textBox {
     width: 50%;
+  }
+
+  #pic1 {
+    display: none;
   }
   
 
