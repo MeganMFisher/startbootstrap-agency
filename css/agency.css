@@ -665,6 +665,26 @@ section#contact :-ms-input-placeholder {
 section#contact .text-danger {
   color: #e74c3c;
 }
+
+@media (max-width: 600px) {
+
+  .section-heading {
+      width: 300px;
+  }
+
+  #contactInfo h4{
+    font-size: 12px;
+  }
+
+}
+
+@media (min-width: 600px) {
+  
+    .section-heading {
+      width: 530px;
+  }
+}
+
 footer {
   padding: 25px 0;
   text-align: center;
@@ -813,4 +833,13 @@ body {
 
 #about {
       background: #eee;
+}
+
+@media (max-width: 600px) {
+
+  .aboutStuff {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
