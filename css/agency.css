@@ -881,12 +881,13 @@ body {
     width: 100%; 
     float: right; 
     letter-spacing: 3px; 
-    line-height: 2.5; 
+    line-height: 1.5; 
   }
 
   #picBox {
     display: flex; 
     justify-content: center;
+    align-items: center;
     margin-top: 0;
     margin-bottom: 0;
   }
