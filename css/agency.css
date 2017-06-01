@@ -362,7 +362,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
-  max-width: 400px;
+  max-width: 600px;
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -396,7 +396,7 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
+  /*max-width: 400px;*/
   margin: 0 auto;
   background-color: #b3b3b3;
   text-align: center;
@@ -908,5 +908,19 @@ body {
     display: none;
   }
   
+
+}
+
+@media (min-width: 992px) {
+
+
+#portsize {
+  width: 50%;
+}
+
+#portlabelsize {
+ width: 100%;
+ max-width: 600;
+}
 
 }
